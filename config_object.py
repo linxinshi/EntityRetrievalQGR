@@ -44,21 +44,3 @@ class Config_Object(object):
                 filename='tswe_SemSearch_ES_v2.pkl.gz'
              self.PATH_TSWE=os.path.join('type_specific_word_embedding',filename)
           '''
-          if self.system_flag=='Windows':
-             self.LUCENE_INDEX_DIR=os.path.join('E:\\',self.LUCENE_INDEX_DIR)
-             self.LUCENE_INDEX_WIKI_DIR=os.path.join('H:\\',self.LUCENE_INDEX_WIKI_DIR)
-             self.LUCENE_INDEX_CATEGORY_CORPUS=os.path.join('H:\\',self.LUCENE_INDEX_CATEGORY_CORPUS)
-             self.LUCENE_INDEX_URI=os.path.join('G:\\',self.LUCENE_INDEX_URI)
-             self.QUERY_FILEPATH=os.path.join('E:\\','Entity_Retrieval',self.QUERY_FILEPATH)
-             self.PATH_WORD2VEC='G:\\'+self.PATH_WORD2VEC
-             '''
-             if IS_TSWE_USED==True:
-                self.PATH_TSWE=os.path.join('H:\\',self.PATH_TSWE)
-             '''
-             
-             self.PATH_GROUNDTRUTH=os.path.join('E:\\','Entity_Retrieval','Balog_SIGIR13',self.PATH_GROUNDTRUTH)
-             self.mongo_port=27017
-             if TAXONOMY=='Wikipedia':
-                self.PATH_CATEGORY_DAG=os.path.join('F:\\','研究数据','Wikipedia_DBpedia_data','DBpedia_data','2015-10','category_structure_processing',self.PATH_CATEGORY_DAG)
-             else:
-                self.PATH_CATEGORY_DAG=os.path.join('F:\\','研究数据','Wikipedia_DBpedia_data','DBpedia_data','2015-10','dbpedia_ontology_structure_processing',self.PATH_CATEGORY_DAG)

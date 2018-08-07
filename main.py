@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# mcl_clustering.mcl()
-# average mentioned entity score  otherwise will be dominated by keyword matching case
 
 from multiprocessing import Process,Manager
 import os, sys, argparse, time, datetime, gzip

@@ -1,5 +1,5 @@
 # Entity Retrieval via Query Graph Inference
-(in progress of organizing the whole projects)
+(in progress of cleaning the project)
 
 This repository contains resources developed within the following manuscript:
 
